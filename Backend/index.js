@@ -22,5 +22,4 @@ app.use(express.json());
 app.use(adminRoute);
 app.use(videosRoute);
 
-
 app.listen(5000, ()=> console.log('Server Up & Running...'));
